@@ -1,1 +1,1 @@
-Algorithms and Data Struchture problems and their applications. 
+Algorithms and Data Struchture problems and their applications. C++, Python. 

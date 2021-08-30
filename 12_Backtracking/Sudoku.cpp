@@ -70,9 +70,14 @@ int main(){
              {'.', '.', '.', '.', '8', '.', '.','7', '9'}};
     if(sudoku(board, 0, 0))
         for(int i=0; i<9; i++){
-            for(int j=0; j<9; j++)
+            for(int j=0; j<9; j++){
                 cout<<" "<<board[i][j];
+                if(j%3==2)
+                    cout<<" ";
+            }
             cout<<endl;
+            if(i%3==2)
+                cout<<endl;
         }
     else{
         cout<<"INPUT SUDOKU IS INVALID";
